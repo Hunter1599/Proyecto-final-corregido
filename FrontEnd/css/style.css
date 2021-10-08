@@ -1,0 +1,397 @@
+*{
+    font-family: Arial;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body{
+    width: 1200px;
+  margin: 0 auto;
+  background-color: #333333;
+  padding: 0 20px 20px 20px;
+  border: auto solid whitesmoke;
+}
+.logo img{
+   width: 25px;
+    height: 25px;
+   }
+
+/* menu de la pag */
+   
+ .menu ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid skyblue;
+    background-color: black;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    font-size:20px ;
+    display: block;
+    color: white ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+    background-color: darkblue;
+}
+
+.menu li a.active {
+    color: white;
+    background-color: darkblue;
+} 
+/* fin del menu */
+/*primer anuncio*/
+h1{
+    width: 100%;
+    float: left;
+    font-size: 30pt;
+    color: ghostwhite;
+}
+
+/* animacion de nuevo producto */
+h2{
+    font-size: 50px;
+    color: white;
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.anima_1 {
+    background-size:100px ;
+    background-color: skyblue;
+
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:darkgreen;
+    border-radius: 6px;
+    border: 2px solid #000000;
+}
+button:hover{
+    color: darkgreen;
+    background-color: white;
+}
+/* anuncio 1  */
+ p{
+  
+     font-size: 30px;
+     color: white;
+}
+#anu-1 {
+    background-color: #353535;
+    border: 5px solid #000000;
+}
+#anu-1 h1{
+    color: greenyellow;
+    padding: 35px;
+    background-color: #000000;
+}
+#anu-1 img {
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#anu-1 img:hover{
+box-shadow: 0px 0px 15px 15px white;
+-webkit-box-shadow: 0px 0px 15px 15px greenyellow;
+
+}
+
+#anu-1 button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    background-color:greenyellow;
+    border-radius: 6px;
+    border: 2px solid greenyellow;
+    position: relative;
+  left: 800px;
+  top: -100px;
+}
+#anu-1 button:hover{
+    color: greenyellow;
+    background-color: #000000;
+}
+#anu-1 p {
+    padding: 35px;
+}
+
+/* seccion de ofertas  */
+#D-oferta{
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+#D-oferta h1{
+    padding: 20px;
+    font-size: 40px;
+    color: red;
+    background-color: white;
+}
+#D-oferta p {
+    padding: 20px;
+    color: white;
+}
+#D-oferta button{
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: yellow;
+    background-color:#000000;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+#D-oferta button:hover{
+    color: red;
+    background-color: #ffffff;
+}
+/*------- oferta 1---- */
+#oferta{
+    float: left ;
+    width: 50%;
+    background-color:#000000;
+    border: 1px solid violet;
+}
+#oferta img{
+width: 25px;
+    height: 25px;
+}
+#oferta .of1 img{
+width: auto;
+    height: 300px;
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#oferta h1{
+    display: inline-block;
+    padding: 20px;
+    width: 500px;
+    color: violet;
+    background-color: #2b2b2b;
+    border: solid;
+}
+#oferta p{
+    clear: both;
+    font-size: 35px;
+    color: greenyellow;
+    text-align: center;
+}
+#oferta ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+#oferta li{
+    padding: 25px;
+    float: left;   
+}
+#oferta button{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: violet;
+    background-color:#ffffff;
+    border-radius: 6px;
+    border: 2px solid violet;
+}
+#oferta button:hover{
+    color: violet;
+    background-color: #000000;   
+}
+/*------- oferta 2 ----*/
+#oferta2{
+    float: left;
+   display: block;
+    border: 1px solid red;
+    background-color: #000000;
+}
+#oferta2 img{
+width: 25px;
+    height: 25px;
+}
+#oferta2 .of2 img{
+width: auto;
+    height: 300px;
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#oferta2 h1{
+    display: inline-block;
+    padding: 20px;
+    width: 500px;
+    color: red;
+    background-color: #2b2b2b;
+    border: solid;
+}
+#oferta2 p{
+    clear: both;
+    font-size: 35px;
+    color: greenyellow;
+    text-align: center;
+}
+#oferta2 ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+#oferta2 li{
+    padding: 25px;
+    float: left;   
+}
+#oferta2 button{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+    background-color:#ffffff;
+    border-radius: 6px;
+    border: 2px solid red;
+}
+#oferta2 button:hover{
+    color: red;
+    background-color: #000000;   
+}
+/* ***** contenido********* */
+#productos {
+    clear: both;
+    display: block;
+    background-color: whitesmoke;
+    border: 1px solid white;
+}
+#productos h1{
+    padding: 20px;
+    color: darkblue;
+    font-family: inherit;
+    border: 5px solid grey;
+    width: 300px;
+    text-align: center;
+}
+#productos p{
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+}
+#productos button{
+    position: relative;
+    top: -20px;
+    left:700px ;
+}
+/*  configuracion de lista de productos    */
+#listPro {
+    display: block;
+    float: left;
+    width: 398px;
+    height:auto ;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 15px;
+    transition:transform ease-in 0.35s ;
+}
+#listPro:hover{
+-webkit-transform:scale(.9);
+transform:scale(.9);}
+
+#listPro h1{
+    text-align: center;
+    width: 300px;
+    color: #000000;
+    padding: 20px;
+    background-color: gold;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    position: relative;
+    left: 30px;
+
+}
+#listPro img{
+    width: 25px;
+    height: 25px;
+}
+#listPro .prod1 img{
+   width: 300px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+#listPro ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+#listPro li{
+    padding: 25px;
+    float: left;   
+}
+#listPro p{
+    font: oblique;
+    color: red;
+    text-align: center;
+}
+#listPro button{
+    position: relative;
+    left: 75px;
+    top: -20px;
+}
+/* apartado de bonus y redes sociales */
+#copyright {
+    background-color: #000000;
+    text-align: center;
+    font-size: 25px;
+    height: 200px;
+ clear: both;
+ border: 1px solid greenyellow;
+}
+}
